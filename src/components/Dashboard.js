@@ -30,8 +30,7 @@ const Dashboard = () => {
                             {item?.title}
                           </p>
                         </div>
-                        <div className="mb-1 text-sm text-gray-400">
-                          Difficulty:{" "}
+                        <div className="px-2 py-1 mb-1 rounded-full w-max bg-stone-700 text-[13px]">
                           <span className={item?.style}>{item?.diff}</span>
                         </div>
                         <div className="line-clamp-2">
